@@ -1,6 +1,6 @@
 // src/App.jsx
 import React, { useEffect, useState } from 'react';
-import { Notifications } from 'react-push-notification';
+// import { Notifications } from 'react-push-notification';
 // import axios from 'axios';
 import AppLayout from './layouts/app-layout';
 import './App.css';
@@ -101,7 +101,7 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <Notifications/>
+      {/* <Notifications/> */}
       <RouterProvider router={router} />
       <div>
         {/* <h1>React and Node.js Integration</h1> */}

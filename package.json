@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-  },
+  },"engines": {
+  "node": "18.x"
+},
   "dependencies": {
     "@clerk/clerk-react": "^5.4.2",
     "@clerk/clerk-sdk-node": "^5.0.45",
@@ -20,7 +22,6 @@
     "@radix-ui/react-radio-group": "^1.2.0",
     "@radix-ui/react-select": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
-    "@react-email/components": "^0.0.25",
     "@supabase/supabase-js": "^2.45.2",
     "@uiw/react-md-editor": "^4.0.4",
     "axios": "^1.7.7",
@@ -31,13 +32,10 @@
     "embla-carousel-autoplay": "^8.2.0",
     "embla-carousel-react": "^8.2.0",
     "lucide-react": "^0.436.0",
-    "mailer": "^0.6.6",
-    "nodemailer": "^6.9.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.53.0",
     "react-hot-toast": "^2.4.1",
-    "react-push-notification": "^1.5.4",
     "react-router-dom": "^6.26.0",
     "react-spinners": "^0.14.1",
     "require": "^0.4.4",
